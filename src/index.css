@@ -1,0 +1,65 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #eaf4f4;
+  background:
+    radial-gradient(circle at top, rgba(128, 208, 199, 0.22), transparent 34%),
+    linear-gradient(180deg, #0b1320 0%, #111c2d 45%, #0f1725 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --border: rgba(255, 255, 255, 0.12);
+  --panel: rgba(9, 18, 30, 0.82);
+  --panel-muted: rgba(255, 255, 255, 0.05);
+  --input-bg: rgba(10, 18, 28, 0.9);
+  --text-strong: #f4fbfb;
+  --text-muted: #b4c6cb;
+  --accent: #80d0c7;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+a,
+button,
+input {
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    filter 0.2s ease;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 1.05;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.45rem;
+  background: rgba(255, 255, 255, 0.08);
+  font-family: 'Cascadia Code', Consolas, monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
