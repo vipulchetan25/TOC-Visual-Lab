@@ -1,5 +1,4 @@
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
-import HomePage from './pages/HomePage'
 import DfaSimulatorPage from './pages/DfaSimulatorPage'
 import NfaSimulatorPage from './pages/NfaSimulatorPage'
 import PdaSimulatorPage from './pages/PdaSimulatorPage'
@@ -15,7 +14,6 @@ function App() {
             TOC Visual Lab
           </Link>
           <nav className="app-nav">
-            <Link to="/">Home</Link>
             <Link to="/dfa">DFA Simulator</Link>
             <Link to="/nfa">NFA Simulator</Link>
             <Link to="/pda">PDA Simulator</Link>
