@@ -1,21 +1,48 @@
-# TOC Visual Lab
+# 🚀 TOC Visual Lab
 
-A web application to visualize Theory of Computation concepts.
+An interactive web-based application to visualize core concepts of Theory of Computation including DFA, NFA, PDA, and Regular Expressions.
 
-## Features
+---
 
-- DFA Simulator
-- NFA Simulator
-- PDA Simulator
-- Regex to DFA Converter
+## 🌐 Live Demo
+https://toc-visual-lab.vercel.app
 
-## Tech Stack
+---
 
-- React + Vite
+## 📌 Features
+
+### 🔹 DFA Simulator
+- Design and simulate Deterministic Finite Automata  
+- Step-by-step execution  
+- Visual state transitions  
+
+### 🔹 NFA Simulator
+- Supports multiple transitions  
+- Displays multiple active states  
+- Clear branching visualization  
+
+### 🔹 PDA Simulator
+- Stack-based computation  
+- Push and pop operations visualization  
+- Step-by-step simulation  
+
+### 🔹 Regex to DFA
+- Convert regular expressions into automata  
+- Visual representation of generated DFA  
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Vite)
 - Zustand
 - JavaScript
+- Vercel (Deployment)
 
-## How to Run
+---
 
+## ▶️ How to Run Locally
+
+```bash
 npm install
 npm run dev
